@@ -1,0 +1,344 @@
+*{
+    margin: 0px;
+}
+
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: normal;
+    src: url('font/Vazir.ttf') format('truetype');
+}
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: thin;
+    src: url('font/Vazir-Thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: Medium;
+    src: url('font/Vazir-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: Vazir;
+    font-style: normal;
+    font-weight: bold;
+    src: url('font/Vazir-Bold.ttf') format('truetype');
+}
+body{
+    font-family: "Vazir" ;
+}
+.main{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 2px 19px;
+}
+
+/* header start */
+
+header nav ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #292931;
+}
+.contac-nav{
+    direction: ltr;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+header{
+    background-color: #ffcb36;
+}
+.logo-bbi{
+    width: 170px;
+    height: 56px;
+    margin-right: 43px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+header form input{
+    font-size: 16px;
+    height: 35px;
+    border: #2d2c31 3px solid;
+    border-radius: 24px;
+    padding-right: 12px;
+    width: 100%;
+    background-color: #ffcb36;
+}
+header form button{
+    background-color: #292931;
+    border: none;
+    border-radius: 56px;
+    padding: 5px 24px;
+    position: relative;
+    left: 34px;
+}
+header form {
+    display: flex;
+    align-items: center;
+    margin-right: 64px;
+}
+.logo-left{
+    width: 34px;
+    height: 34px;
+}
+.logo-nav{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    left: 36px;
+    position: absolute;
+}
+.logo-nav img{
+    margin: 0px 7px;
+}
+nav{
+    padding-top: 6px;
+}
+.nav2 ul li{
+    text-decoration: none;
+    display: inline;
+    padding: 2px 8px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.nav2{
+    background-color: #292931;
+    color: white;
+}
+.nav2 ul {
+    padding: 16px 34px;
+}
+.nav2 ul li:hover{
+    color: #ffcb36;
+}
+.logo-nav span{
+    background-color: #292931;
+    color: white;
+    padding: 0px 4px;
+    border-radius: 26px;
+    position: relative;
+    bottom: 10px;
+    right: 16px;
+}
+
+.more-btn img{
+    width: 17px;
+    height: 17px;
+}
+.more-btn a{
+    font-size: 9px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 5px;
+}
+.more-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12px;
+}
+#Btn-search2{
+    display: none;
+}
+.nav3-coppy{
+    display: none;
+}
+
+/* header finish */
+
+.main-nav ul li{
+    text-decoration: none;
+    display: inline;
+    font-size: 11px;
+    color: #292931;
+}
+.main-nav ul{
+    font-size: 11px;
+    padding: 10px 0px;
+}
+.aside-box img{
+    width: 11px;
+    height: 11px;
+}
+.aside-box span {
+    font-size: 12px;
+}
+.aside-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c1c6c6;
+}
+main{
+    padding: 2px 29px;
+}
+.price-box{
+    font-size: 11px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.price-box input{
+    width: 35%;
+}
+.price-box span{
+    padding: 0px 3px;
+}
+.check1{
+    font-size: 12px;
+    padding: 9px 12px;
+    border-bottom: 1px solid #c1c6c6;
+}
+.check2{
+    font-size: 12px;
+    padding: 9px 12px;
+}
+.check1:hover{
+    background-color: #f8f8f8;
+}
+.check2:hover{
+    background-color: #f8f8f8;
+}
+aside img{
+    margin-top: 20px;
+    border-radius: 43px 43px 18px 18px;
+}
+.aside-pic{
+    display: flex;
+    justify-content: center;
+}
+.Post-box img{
+    width: 190px;
+    height: 230px;
+}
+.Post-box h3{
+    font-size: 13px;
+    color: #222;
+    padding: 10px 0px;
+}
+.Post-box h4{
+    color: #e10000;
+    font-size: 13px;
+    font-weight: bold;
+}
+.Post-box h4 span{
+    font-size: 60%;
+}
+.Post-box2{
+    background-color: #f5f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    padding-bottom: 34px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 10px 0px;
+}
+.modal-section{
+    background-color: #f6f6f6;
+    border: solid black 2px;
+    border-radius: 14px;
+    
+}
+.modal-section button img{
+    width: 20px;
+    height: 20px;
+}
+.modal-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-section button{
+    background: none;
+    border: none;
+    margin: 13px;
+}
+.modal-post img{
+    width: 190px;
+    height: 230px;
+}
+.modal-post h3{
+    font-size: 15px;
+    color: #222;
+    padding: 10px 0px;
+}
+.modal-post h4{
+    color: #e10000;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 36px;
+}
+.modal-post h4 span{
+    font-size: 60%;
+}
+
+
+
+@media screen and (max-width: 760px) {
+   header nav {
+    display: none;
+   }
+   .search form {
+    display: none;
+   }
+   #logo-heart{
+    display: none;
+   }
+   #Btn-search2{
+    display:initial;
+    background: none;
+    border: none;
+    float: left;
+    position: relative;
+    bottom: 58px;
+    margin: 0px 4px;
+   }
+   .logo-nav{
+    left: 9px;
+   }
+   .nav3{
+    display: none;
+   }
+   .nav3-coppy{
+    display: contents;
+   }
+   #li-del{
+    display: none;
+   }
+   .section3{
+    margin-right: 0px;
+   }
+}
+@media screen and (max-width: 993px){
+    header form input {
+        font-size: 12px;
+        width: 66%;
+    }
+    header form {
+        margin-right: 23px;
+    }
+    
+    }
+@media screen and (max-width: 992px) {
+    aside{
+        display: none;
+    }
+}
