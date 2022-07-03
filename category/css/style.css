@@ -24,6 +24,7 @@
 }
 body{
     font-family: "Vazir" ;
+    overflow-x: hidden;
 }
 a{
     color: black;
