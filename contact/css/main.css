@@ -20,6 +20,9 @@
   box-sizing: border-box;
   font-family: Vazir !important;
 }
+body{
+  overflow-x: hidden;
+}
 a,p {
   color: black;
 }
@@ -350,4 +353,24 @@ ul {
 }
 .owl-nav , .owl-dots {
   display: none;
+}
+.footer-cta .row{
+  background: rgb(255 255 255 / 8%);
+  border-radius: 12rem;
+  padding: 2rem;
+}
+.footer-cta h3 , .footer-cta p{
+  text-align: right;
+}
+.footer-cta img{
+  float: right;
+  width: 50px;
+  margin: 2.7rem 1rem;
+}
+.footer-cta .pull-right{
+  margin: 1.7rem;
+  padding: 2rem 4rem;
+  color: black;
+  border-radius: 2rem;
+  font-size: 1.4em;
 }
