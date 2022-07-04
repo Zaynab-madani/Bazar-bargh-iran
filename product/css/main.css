@@ -312,11 +312,15 @@ ul {
   color: #4c4c4c;
   padding: 1rem;
 }
-
+/* comment */
 .comment{
-  margin: 6rem;
+  width: 100%;
+  margin: 6rem 0;
 }
 
+.comment .form-input {
+  margin: 2rem 0;
+}
 /* footer */
 .footer {
   width: 100%;
