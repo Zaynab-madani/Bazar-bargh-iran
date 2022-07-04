@@ -132,6 +132,21 @@ ul {
   right: -2px;
   top: 1.8px;
 }
+.carts:hover .list_cart{
+  display:block;}
+.list_cart{
+  position: absolute;
+  top: 5rem;
+  left: -4rem;
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  border: 1px solid black;
+  z-index: 999;
+  border-radius: 5rem;
+  display:none;
+  text-align: center;
+}
 /* navbar section */
 .navbar_site {
   background-color: #292931;
@@ -312,7 +327,15 @@ ul {
   color: #4c4c4c;
   padding: 1rem;
 }
+/* comment */
+.comment{
+  width: 100%;
+  margin: 6rem 0;
+}
 
+.comment .form-input {
+  margin: 2rem 0;
+}
 
 /* footer */
 .footer {
@@ -350,4 +373,35 @@ ul {
 }
 .owl-nav , .owl-dots {
   display: none;
+}
+.footer-cta .row{
+  background: rgb(255 255 255 / 8%);
+  border-radius: 12rem;
+  padding: 2rem;
+}
+.footer-cta h3 , .footer-cta p{
+  text-align: right;
+}
+.footer-cta img{
+  float: right;
+  width: 50px;
+  margin: 2.7rem 1rem;
+}
+.footer-cta .pull-right{
+  margin: 1.7rem;
+  padding: 2rem 4rem;
+  color: black;
+  border-radius: 2rem;
+  font-size: 1.4em;
+}
+.sotial{
+  margin-top: 4rem;
+}
+.sotial a {
+  margin: 3rem;
+}
+.copyright{
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 2px solid #00000026;
 }
