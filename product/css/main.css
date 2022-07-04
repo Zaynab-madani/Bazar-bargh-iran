@@ -132,6 +132,22 @@ ul {
   right: -2px;
   top: 1.8px;
 }
+.carts:hover .list_cart{
+  visibility: visible;
+}
+.list_cart{
+  position: absolute;
+  top: 5rem;
+  left: -4rem;
+  background-color: white;
+  width: 450px;
+  height: 300px;
+  border: 1px solid black;
+  z-index: 999;
+  border-radius: 5rem;
+  visibility: hidden;
+  text-align: center;
+}
 /* navbar section */
 .navbar_site {
   background-color: #292931;
@@ -321,6 +337,7 @@ ul {
 .comment .form-input {
   margin: 2rem 0;
 }
+
 /* footer */
 .footer {
   width: 100%;
