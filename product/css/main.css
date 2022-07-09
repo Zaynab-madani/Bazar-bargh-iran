@@ -337,6 +337,9 @@ ul {
   margin: 2rem 0;
 }
 
+.comment_err{
+  margin: 2rem 0;
+}
 /* footer */
 .footer {
   width: 100%;

@@ -198,14 +198,15 @@
     <div class="comment">
       <div class="container-fluid">
         <h2>نظر شما در مورد این کالا چیست؟</h2>
-        <form action="#">
+        <div class="comment_err alert alert-danger" style="display: none;"></div>
+        <form action="#" id="commentForm">
           <div class="form-input">
             <label for="fullname">نام شما</label>
             <input class="form-control" type="text" id="fullname">
           </div>
           <div class="form-input">
-            <label for="text">نظر شما</label>
-            <textarea class="form-control" name="text" id="text" cols="30" rows="10"></textarea>
+            <label for="textyour">نظر شما</label>
+            <textarea class="form-control" name="text" id="textyour" cols="30" rows="10"></textarea>
           </div>
           <button class="btn btn-primary">ثبت</button>
         </form>
