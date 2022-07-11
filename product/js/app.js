@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // menu mobile
-   $('.menu-btn-mobile').click(()=>{
+    $('.menu-btn-mobile').click(()=>{
         $('.dark-overlay').show()
         $('.navbar_site').addClass("right-menu")
 
@@ -8,8 +8,8 @@ $(document).ready(function(){
             $('.dark-overlay').hide()
             $('.navbar_site').removeClass("right-menu")
         })
-   })
-   
+    })
+
     //search mobile
     $('.search-btn-mobile').click(()=>{
         $('.dark-overlay').show()
@@ -57,17 +57,17 @@ $(document).ready(function(){
         })
     }
     propertiesProduct(3)
-     $('.other').click(()=>{
+        $('.other').click(()=>{
         propertiesProduct(5)
-         $('.other').hide()
-         $('.othermin').show()
-     })
+            $('.other').hide()
+            $('.othermin').show()
+        })
 
-     $('.othermin').click(()=>{
+        $('.othermin').click(()=>{
         propertiesProduct(3)
         $('.other').show()
-         $('.othermin').hide()
-     })
+            $('.othermin').hide()
+        })
 
 
     //  slider
@@ -105,3 +105,15 @@ $(document).ready(function(){
         }
     })
 });
+
+//Valid Comment Form
+$('#commentForm').submit(()=>{
+    let fullname = $("#fullname").val()
+    let textyour = $("#textyour").val()
+    
+    if(fullname == '' || textyour == ''){
+        $('.comment_err').show().html('کادر ها را پر کنید')
+    } else{
+        $('.comment_err').hide()
+    }
+})

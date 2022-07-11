@@ -337,6 +337,9 @@ ul {
   margin: 2rem 0;
 }
 
+.comment_err{
+  margin: 2rem 0;
+}
 /* footer */
 .footer {
   width: 100%;
@@ -404,4 +407,18 @@ ul {
   margin-top: 3rem;
   padding-top: 3rem;
   border-top: 2px solid #00000026;
+}
+
+
+/* scroll top */
+
+.ScrollTop{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem 1.6rem;
+  font-size: 2em;
+  color: black;
+  z-index: 999;
+  border-radius: 50%;
 }

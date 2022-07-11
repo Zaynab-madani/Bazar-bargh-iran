@@ -198,14 +198,15 @@
     <div class="comment">
       <div class="container-fluid">
         <h2>نظر شما در مورد این کالا چیست؟</h2>
-        <form action="#">
+        <div class="comment_err alert alert-danger" style="display: none;"></div>
+        <form action="#" id="commentForm">
           <div class="form-input">
             <label for="fullname">نام شما</label>
             <input class="form-control" type="text" id="fullname">
           </div>
           <div class="form-input">
-            <label for="text">نظر شما</label>
-            <textarea class="form-control" name="text" id="text" cols="30" rows="10"></textarea>
+            <label for="textyour">نظر شما</label>
+            <textarea class="form-control" name="text" id="textyour" cols="30" rows="10"></textarea>
           </div>
           <button class="btn btn-primary">ثبت</button>
         </form>
@@ -262,9 +263,11 @@
         </a>
       </div>
       <div class="copyright">
-        © 2022 . تمامی حقوق مادی و معنوی این سایت متعلق به فروشگاه اینترنتی بازار برق ایران می‌باشد.
+       . تمامی حقوق مادی و معنوی این سایت متعلق به فروشگاه اینترنتی بازار برق ایران می‌باشد.
+       <span>© 2022</span>
       </div>
     </footer>
+    <a href="#" class="btn btn-warning ScrollTop"><i class="bi bi-arrow-up"></i></a>
     <!-- scripts -->
     <script src="./js/jquery-3.6.0.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
